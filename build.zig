@@ -72,6 +72,7 @@ pub fn build(b: *std.Build) !void {
         // .{ .file = "examples/09_shutdown.zig", .name = "example_9", .libc = true },
         .{ .file = "examples/10_file_upload.zig", .name = "example_10" },
         .{ .file = "examples/11_html_streaming.zig", .name = "example_11" },
+        .{ .file = "examples/12_auth.zig", .name = "example_12" },
     };
 
     {
